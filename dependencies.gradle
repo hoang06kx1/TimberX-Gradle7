@@ -1,18 +1,18 @@
 ext.versions = [
         // App
-        minSdk            : 21,
-        targetSdk         : 28,
+        minSdk            : 23,
+        targetSdk         : 31,
         versionCode       : 10,
         versionName       : "1.9",
 
         // Plugins
-        gradlePlugin      : "4.2.0-alpha13",
-        googleServices    : "4.2.0",
+        gradlePlugin      : "7.1.0",
+        googleServices    : "4.3.10",
         crashlyticsPlugin : "2.3.0",
         spotlessPlugin    : "3.17.0",
 
         // Kotlin
-        kotlin            : "1.4.10",
+        kotlin            : "1.6.21",
         coroutines        : "1.1.1",
 
         // AndroidX
@@ -22,12 +22,12 @@ ext.versions = [
         recyclerView      : "1.0.0",
         cardView          : "1.0.0",
         materialComponents: "1.0.0",
-        ktx               : "1.0.1",
+        ktx               : "1.7.0",
         legacySupport     : "1.0.0",
         preference        : "1.1.0-alpha01",
 
         // Compose
-        compose           : "1.0.0-alpha04",
+        compose           : "1.2.0-beta02",
 
         // Arch Components
         lifecycle         : "2.1.0-alpha02",

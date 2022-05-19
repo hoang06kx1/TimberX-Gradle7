@@ -46,8 +46,12 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerVersion versions.kotlin
         kotlinCompilerExtensionVersion versions.compose
+    }
+
+    configurations.all {
+        resolutionStrategy.force "org.antlr:antlr4-runtime:4.7.1"
+        resolutionStrategy.force "org.antlr:antlr4-tool:4.7.1"
     }
 }
 
@@ -131,7 +135,7 @@ dependencies {
 
     // Compose
     implementation "androidx.compose.ui:ui:${versions.compose}"
-    implementation "androidx.ui:ui-tooling:${versions.compose}"
+//    implementation "androidx.ui:ui-tooling:1.1.1"
     implementation "androidx.compose.foundation:foundation:${versions.compose}"
     implementation "androidx.compose.material:material:${versions.compose}"
     implementation "androidx.compose.material:material-icons-core:${versions.compose}"
